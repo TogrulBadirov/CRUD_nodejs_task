@@ -30,9 +30,9 @@ Use the provided interface to manage products.
 API Endpoints:
 
 GET http://localhost:4000/products: Retrieves all products.
-POST http://localhost:4000/products: Creates a new product. Request body should contain name, imageUrl, info, and price properties.
+POST http://localhost:4000/products: Creates a new product. Request body should contain name, image, info, and price properties.
 GET http://localhost:4000/products/:id: Retrieves a specific product by its id.
-PUT http://localhost:4000/products/:id: Updates a product by its id. Request body should contain any/all of name, imageUrl, info, and price properties.
+PUT http://localhost:4000/products/:id: Updates a product by its id. Request body should contain any/all of name, image, info, and price properties.
 DELETE http://localhost:4000/products/:id: Deletes a product by its id.
 Technology Stack:
 
